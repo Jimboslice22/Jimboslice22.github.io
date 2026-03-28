@@ -1,28 +1,28 @@
 /* Date Widget Styles */
 .date-widget {
   background: transparent;
-  padding: 2rem 3rem;
+  padding: .5rem 0;
   display: inline-block;
 }
 
 .date-widget__text {
-  font-family: var(--font-serif);
-  font-size: clamp(1.5rem, 4vw, 2.5rem);
+  font-family: var(--font-sans);
+  font-size: 1.5rem;
   color: var(--color-text-primary);
   letter-spacing: 0.5px;
   margin: 0;
   white-space: nowrap;
-  font-weight: 400;
+  font-weight: 500;
 }
 
 /* Responsive Design */
 @media (max-width: 640px) {
   .date-widget {
-    padding: 1.5rem 2rem;
+    padding: .5rem 0;
   }
 
   .date-widget__text {
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     white-space: normal;
     text-align: center;
   }
@@ -30,10 +30,10 @@
 
 @media (max-width: 400px) {
   .date-widget {
-    padding: 1.25rem 1.5rem;
+    padding: .5rem 0;
   }
 
   .date-widget__text {
-    font-size: 1.1rem;
+    font-size: 1.5rem;
   }
 }
