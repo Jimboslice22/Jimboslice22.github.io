@@ -1,0 +1,41 @@
+/* Date Widget Styles */
+.date-widget {
+  background-color: var(--color-widget-bg);
+  padding: 2rem 3rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  display: inline-block;
+}
+
+.date-widget__text {
+  font-family: var(--font-serif);
+  font-size: clamp(1.5rem, 4vw, 2.5rem);
+  color: var(--color-text-primary);
+  letter-spacing: 0.5px;
+  margin: 0;
+  white-space: nowrap;
+  font-weight: 400;
+}
+
+/* Responsive Design */
+@media (max-width: 640px) {
+  .date-widget {
+    padding: 1.5rem 2rem;
+  }
+
+  .date-widget__text {
+    font-size: 1.25rem;
+    white-space: normal;
+    text-align: center;
+  }
+}
+
+@media (max-width: 400px) {
+  .date-widget {
+    padding: 1.25rem 1.5rem;
+  }
+
+  .date-widget__text {
+    font-size: 1.1rem;
+  }
+}
