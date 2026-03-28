@@ -1,9 +1,7 @@
 /* Date Widget Styles */
 .date-widget {
-  background-color: var(--color-widget-bg);
+  background: transparent;
   padding: 2rem 3rem;
-  border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   display: inline-block;
 }
 
