@@ -15,12 +15,12 @@
 
 /* HTML and Body Layout */
 html {
-  background: transparent;
+  background: #1a1a1a;
 }
 
 body {
   min-height: 100vh;
-  background: transparent;
+  background: #1a1a1a;
   padding: 1rem;
   font-family: var(--font-sans);
 }
